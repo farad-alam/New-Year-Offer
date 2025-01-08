@@ -80,66 +80,70 @@ main section {
 .midnight-party {
   width: 100%;
   height: 500px;
-  background: linear-gradient(
-      90deg,
-      rgb(0, 0, 0) 2%,
-      rgba(29, 14, 58, 0.2) 80%
-    ),
-    url("../assets/images/Group\ 70.png"), 
-    url("../assets/images/Vectorrr.png");
+  background: linear-gradient(90deg, rgb(0, 0, 0) 2%, rgba(29, 14, 58, 0.2) 80%),
+    url("../assets/images/Group\ 70.png"), url("../assets/images/Vectorrr.png");
   /* background-image: url("../assets/images/Group\ 70.png"),
     url("../assets/images/Vectorrr.png"); */
   background-repeat: no-repeat;
-  background-position: center center,85% 45%, right center;
+  background-position: center center, 85% 45%, right center;
   background-size: cover, 220px 350px, cover;
   margin-bottom: 100px;
   padding: 70px 120px;
   border-radius: 12px;
 }
 .party-container {
-    
-    color: white;
-    font-family: "Merriweather", serif;
+  color: white;
+  font-family: "Merriweather", serif;
 }
-.welcome-msg{
-    font-size: 64px;
-    font-weight: 600;
+.welcome-msg {
+  font-size: 64px;
+  font-weight: 600;
 }
-.welcome-msg span{
-    display: block;
+.welcome-msg span {
+  display: block;
 }
-.party-desc{
-    font-size: 14px;
-    color: rgb(168, 165, 162);
-    padding: 20px 150px 20px 0;
+.party-desc {
+  font-size: 14px;
+  color: rgb(168, 165, 162);
+  padding: 20px 150px 20px 0;
 }
 
-.join-btn{
-    margin-left: 18px;
+.join-btn {
+  margin-left: 18px;
 }
-.join-btn button{
-    background: transparent;
-    color: white;
-    border: none;
+.join-btn button {
+  background: transparent;
+  color: white;
+  border: none;
 }
 
 /* Best Offer */
-.offer-container{
-    display: flex;
-    gap: 12px;
-    justify-content: space-between;
-    align-items: center;
+.offer-container {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.offer-item{
-    flex-basis: 30%;
+.offer-item {
+  flex-basis: 30%;
 }
 
-.offer-img{
-    padding: 30px;
-    border: 20px solid red;
-    border-radius: 50%;
+.offer-img {
+  padding: 30px;
+  border: 20px solid red;
+  border-radius: 50%;
 }
-.offer-img img{
-    /* border: 10px solid red; */
+.offer-img img {
+  /* border: 10px solid red; */
+}
+
+.holyday-sale {
+  width: 100%;
+  height: 600px;
+  background-image: url("../assets/images/Group\ 75.png"), url("../assets/images/Rectangle\ 2.png"),
+     url("../assets/images/Group\ 44.png");
+    background-repeat: no-repeat;
+    background-position:  10% 93%, left bottom, 90% 40%;
+    background-size: 250px 200px, 100% 100px, 200px 200px;
 }
