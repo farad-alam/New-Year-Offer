@@ -4,3 +4,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  margin: 50px 140px 0;
+  font-family: "Merriweather", serif;
+  color: white;
+  
+}
+.banar {
+    background: linear-gradient(180deg, rgb(0, 0, 0) 2.0%,rgba(29, 14, 58, 0.2) 80%),url("../assets/images/Banner\ Image.png");
+  /* background-image: url("../assets/images/Banner\ Image.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  text-align: center;
+  /* margin: 200px auto 0px; */
+  padding-top: 150px;
+  
+}
+.banar p{
+    font-size: 25px;
+}
+.banar h1{
+    font-size: 56px;
+    padding: 0 200px;
+}
